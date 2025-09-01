@@ -1,0 +1,16 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e6]:
+      - heading "Hmmm… can't reach this page" [level=1] [ref=e7]:
+        - generic [ref=e8]: Hmmm… can't reach this page
+      - paragraph [ref=e9]:
+        - text: Check if there is a typo in
+        - generic [ref=e10]: staging.fabindia-like-site.com
+        - text: .
+      - generic [ref=e11]: DNS_PROBE_FINISHED_NXDOMAIN
+    - button "Refresh" [ref=e14] [cursor=pointer]
+  - generic [ref=e18]: Microsoft Edge
+```
