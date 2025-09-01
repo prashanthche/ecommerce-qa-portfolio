@@ -19,7 +19,7 @@
     "allure:serve": "npx allure serve ./allure-results",
 
     "build": "npm run test:report && npm run test:html-report",
-    "export": "cp -r automation-framework/playwright-report automation-framework/out"
+    "export": "mkdir -p automation-framework/out && cp -r automation-framework/playwright-report/* automation-framework/out/"
   },
   "devDependencies": {
     "@playwright/test": "^1.40.0",
