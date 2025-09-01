@@ -1,0 +1,310 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - status
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip navigation" [ref=e4] [cursor=pointer]:
+        - /url: "#main"
+      - generic [ref=e5]:
+        - combobox "Currency selector" [ref=e8]:
+          - option "US Dollar" [selected]
+          - option "Euro"
+        - list [ref=e11]:
+          - listitem [ref=e12]:
+            - link "Register" [ref=e13] [cursor=pointer]:
+              - /url: /register?returnUrl=%2F
+          - listitem [ref=e14]:
+            - link "Log in" [ref=e15] [cursor=pointer]:
+              - /url: /login?returnUrl=%2F
+          - listitem [ref=e16]:
+            - link "Wishlist (0)" [ref=e17] [cursor=pointer]:
+              - /url: /wishlist
+              - generic [ref=e18] [cursor=pointer]: Wishlist
+              - generic [ref=e19] [cursor=pointer]: (0)
+          - listitem [ref=e20]:
+            - link "Shopping cart (0)" [ref=e21] [cursor=pointer]:
+              - /url: /cart
+              - generic [ref=e22] [cursor=pointer]: Shopping cart
+              - generic [ref=e23] [cursor=pointer]: (0)
+      - generic [ref=e24]:
+        - link "nopCommerce demo store" [ref=e26] [cursor=pointer]:
+          - /url: /
+          - img "nopCommerce demo store" [ref=e27] [cursor=pointer]
+        - generic [ref=e29]:
+          - textbox "Search store" [ref=e30]
+          - button "Search" [ref=e31] [cursor=pointer]
+    - list [ref=e33]:
+      - listitem [ref=e34]:
+        - link "Computers" [ref=e35] [cursor=pointer]:
+          - /url: /computers
+      - listitem [ref=e36]:
+        - link "Electronics" [ref=e37] [cursor=pointer]:
+          - /url: /electronics
+      - listitem [ref=e38]:
+        - link "Apparel" [ref=e39] [cursor=pointer]:
+          - /url: /apparel
+      - listitem [ref=e40]:
+        - link "Digital downloads" [ref=e41] [cursor=pointer]:
+          - /url: /digital-downloads
+      - listitem [ref=e42]:
+        - link "Books" [ref=e43] [cursor=pointer]:
+          - /url: /books
+      - listitem [ref=e44]:
+        - link "Jewelry" [ref=e45] [cursor=pointer]:
+          - /url: /jewelry
+      - listitem [ref=e46]:
+        - link "Gift Cards" [ref=e47] [cursor=pointer]:
+          - /url: /gift-cards
+    - main [ref=e48]:
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - group "1 / 2":
+              - link:
+                - /url: https://demo.nopcommerce.com/
+            - group "2 / 2" [ref=e55]:
+              - link [ref=e56] [cursor=pointer]:
+                - /url: https://demo.nopcommerce.com/
+          - generic [ref=e57]:
+            - button "Go to slide 1" [ref=e58] [cursor=pointer]
+            - button "Go to slide 2" [ref=e59] [cursor=pointer]
+        - generic [ref=e60]:
+          - heading "Welcome to our store" [level=2] [ref=e62]
+          - generic [ref=e63]:
+            - paragraph [ref=e64]: Online shopping is the process consumers go through to purchase products or services over the Internet. You can edit this in the admin site.
+            - paragraph [ref=e65]:
+              - text: If you have questions, see the
+              - link "Documentation" [ref=e66] [cursor=pointer]:
+                - /url: http://docs.nopcommerce.com/
+              - text: ", or post in the"
+              - link "Forums" [ref=e67] [cursor=pointer]:
+                - /url: https://www.nopcommerce.com/boards/
+              - text: at
+              - link "nopCommerce.com" [ref=e68] [cursor=pointer]:
+                - /url: https://www.nopcommerce.com
+        - generic [ref=e70]:
+          - generic [ref=e72]:
+            - heading "Electronics" [level=2] [ref=e73]:
+              - link "Electronics" [ref=e74] [cursor=pointer]:
+                - /url: /electronics
+            - link "Picture for category Electronics" [ref=e76] [cursor=pointer]:
+              - /url: /electronics
+              - img "Picture for category Electronics" [ref=e77] [cursor=pointer]
+          - generic [ref=e79]:
+            - heading "Apparel" [level=2] [ref=e80]:
+              - link "Apparel" [ref=e81] [cursor=pointer]:
+                - /url: /apparel
+            - link "Picture for category Apparel" [ref=e83] [cursor=pointer]:
+              - /url: /apparel
+              - img "Picture for category Apparel" [ref=e84] [cursor=pointer]
+          - generic [ref=e86]:
+            - heading "Digital downloads" [level=2] [ref=e87]:
+              - link "Digital downloads" [ref=e88] [cursor=pointer]:
+                - /url: /digital-downloads
+            - link "Picture for category Digital downloads" [ref=e90] [cursor=pointer]:
+              - /url: /digital-downloads
+              - img "Picture for category Digital downloads" [ref=e91] [cursor=pointer]
+        - generic [ref=e92]:
+          - strong [ref=e94]: Featured products
+          - generic [ref=e95]:
+            - generic [ref=e97]:
+              - link "Picture of Build your own computer" [ref=e99] [cursor=pointer]:
+                - /url: /build-your-own-computer
+                - img "Picture of Build your own computer" [ref=e100] [cursor=pointer]
+              - generic [ref=e101]:
+                - heading "Build your own computer" [level=2] [ref=e102]:
+                  - link "Build your own computer" [ref=e103] [cursor=pointer]:
+                    - /url: /build-your-own-computer
+                - generic [ref=e107]:
+                  - generic [ref=e109]: $1,200.00
+                  - generic [ref=e110]:
+                    - button "Add to cart" [ref=e111] [cursor=pointer]
+                    - button "Add to compare list" [ref=e112] [cursor=pointer]
+                    - button "Add to wishlist" [ref=e113] [cursor=pointer]
+            - generic [ref=e115]:
+              - link "Picture of Apple MacBook Pro" [ref=e117] [cursor=pointer]:
+                - /url: /apple-macbook-pro
+                - img "Picture of Apple MacBook Pro" [ref=e118] [cursor=pointer]
+              - generic [ref=e119]:
+                - heading "Apple MacBook Pro" [level=2] [ref=e120]:
+                  - link "Apple MacBook Pro" [ref=e121] [cursor=pointer]:
+                    - /url: /apple-macbook-pro
+                - generic [ref=e125]:
+                  - generic [ref=e127]: $1,800.00
+                  - generic [ref=e128]:
+                    - button "Add to cart" [ref=e129] [cursor=pointer]
+                    - button "Add to compare list" [ref=e130] [cursor=pointer]
+                    - button "Add to wishlist" [ref=e131] [cursor=pointer]
+            - generic [ref=e133]:
+              - link "Picture of HTC smartphone" [ref=e135] [cursor=pointer]:
+                - /url: /htc-smartphone
+                - img "Picture of HTC smartphone" [ref=e136] [cursor=pointer]
+              - generic [ref=e137]:
+                - heading "HTC smartphone" [level=2] [ref=e138]:
+                  - link "HTC smartphone" [ref=e139] [cursor=pointer]:
+                    - /url: /htc-smartphone
+                - generic [ref=e142]:
+                  - generic [ref=e144]: $245.00
+                  - generic [ref=e145]:
+                    - button "Add to cart" [ref=e146] [cursor=pointer]
+                    - button "Add to compare list" [ref=e147] [cursor=pointer]
+                    - button "Add to wishlist" [ref=e148] [cursor=pointer]
+            - generic [ref=e150]:
+              - link "Picture of $25 Virtual Gift Card" [ref=e152] [cursor=pointer]:
+                - /url: /25-virtual-gift-card
+                - img "Picture of $25 Virtual Gift Card" [ref=e153] [cursor=pointer]
+              - generic [ref=e154]:
+                - heading "$25 Virtual Gift Card" [level=2] [ref=e155]:
+                  - link "$25 Virtual Gift Card" [ref=e156] [cursor=pointer]:
+                    - /url: /25-virtual-gift-card
+                - generic [ref=e160]:
+                  - generic [ref=e162]: $25.00
+                  - generic [ref=e163]:
+                    - button "Add to cart" [ref=e164] [cursor=pointer]
+                    - button "Add to compare list" [ref=e165] [cursor=pointer]
+                    - button "Add to wishlist" [ref=e166] [cursor=pointer]
+        - generic [ref=e167]:
+          - strong [ref=e169]: News
+          - generic [ref=e170]:
+            - generic [ref=e171]:
+              - generic [ref=e172]:
+                - link "New online store is open!" [ref=e173] [cursor=pointer]:
+                  - /url: /new-online-store-is-open
+                - generic [ref=e174]: "-Tuesday, February 11, 2025"
+              - generic [ref=e175]: The new nopCommerce store is open now! We are very excited to offer our new range of products. We will be constantly adding to our range so please register on our site.
+              - link "details" [ref=e177] [cursor=pointer]:
+                - /url: /new-online-store-is-open
+            - generic [ref=e178]:
+              - generic [ref=e179]:
+                - link "nopCommerce new release!" [ref=e180] [cursor=pointer]:
+                  - /url: /nopcommerce-new-release
+                - generic [ref=e181]: "-Tuesday, February 11, 2025"
+              - generic [ref=e182]: nopCommerce includes everything you need to begin your e-commerce online store. We have thought of everything and it's all included! nopCommerce is a fully customizable shopping cart
+              - link "details" [ref=e184] [cursor=pointer]:
+                - /url: /nopcommerce-new-release
+            - generic [ref=e185]:
+              - generic [ref=e186]:
+                - link "About nopCommerce" [ref=e187] [cursor=pointer]:
+                  - /url: /about-nopcommerce
+                - generic [ref=e188]: "-Tuesday, February 11, 2025"
+              - generic [ref=e189]: It's stable and highly usable. From downloads to documentation, www.nopCommerce.com offers a comprehensive base of information, resources, and support to the nopCommerce community.
+              - link "details" [ref=e191] [cursor=pointer]:
+                - /url: /about-nopcommerce
+          - link "View News Archive" [ref=e193] [cursor=pointer]:
+            - /url: /news
+        - generic [ref=e194]:
+          - strong [ref=e196]: Community poll
+          - generic [ref=e197]:
+            - strong [ref=e198]: Do you like nopCommerce?
+            - list [ref=e199]:
+              - listitem [ref=e200]:
+                - radio "Excellent" [ref=e201] [cursor=pointer]
+                - generic [ref=e202] [cursor=pointer]: Excellent
+              - listitem [ref=e203]:
+                - radio "Good" [ref=e204] [cursor=pointer]
+                - generic [ref=e205] [cursor=pointer]: Good
+              - listitem [ref=e206]:
+                - radio "Poor" [ref=e207] [cursor=pointer]
+                - generic [ref=e208] [cursor=pointer]: Poor
+              - listitem [ref=e209]:
+                - radio "Very bad" [ref=e210] [cursor=pointer]
+                - generic [ref=e211] [cursor=pointer]: Very bad
+            - button "Vote" [ref=e213] [cursor=pointer]
+    - generic [ref=e214]:
+      - generic [ref=e215]:
+        - generic [ref=e216]:
+          - strong [ref=e218]: Information
+          - list [ref=e219]:
+            - listitem [ref=e220]:
+              - link "Sitemap" [ref=e221] [cursor=pointer]:
+                - /url: /sitemap
+            - listitem [ref=e222]:
+              - link "Shipping & returns" [ref=e223] [cursor=pointer]:
+                - /url: /shipping-returns
+            - listitem [ref=e224]:
+              - link "Privacy notice" [ref=e225] [cursor=pointer]:
+                - /url: /privacy-notice
+            - listitem [ref=e226]:
+              - link "Conditions of Use" [ref=e227] [cursor=pointer]:
+                - /url: /conditions-of-use
+            - listitem [ref=e228]:
+              - link "About us" [ref=e229] [cursor=pointer]:
+                - /url: /about-us
+            - listitem [ref=e230]:
+              - link "Contact us" [ref=e231] [cursor=pointer]:
+                - /url: /contactus
+        - generic [ref=e232]:
+          - strong [ref=e234]: Customer service
+          - list [ref=e235]:
+            - listitem [ref=e236]:
+              - link "Search" [ref=e237] [cursor=pointer]:
+                - /url: /search
+            - listitem [ref=e238]:
+              - link "News" [ref=e239] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e240]:
+              - link "Blog" [ref=e241] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=e242]:
+              - link "Recently viewed products" [ref=e243] [cursor=pointer]:
+                - /url: /recentlyviewedproducts
+            - listitem [ref=e244]:
+              - link "Compare products list" [ref=e245] [cursor=pointer]:
+                - /url: /compareproducts
+            - listitem [ref=e246]:
+              - link "New products" [ref=e247] [cursor=pointer]:
+                - /url: /newproducts
+        - generic [ref=e248]:
+          - strong [ref=e250]: My account
+          - list [ref=e251]:
+            - listitem [ref=e252]:
+              - link "My account" [ref=e253] [cursor=pointer]:
+                - /url: /customer/info
+            - listitem [ref=e254]:
+              - link "Orders" [ref=e255] [cursor=pointer]:
+                - /url: /order/history
+            - listitem [ref=e256]:
+              - link "Addresses" [ref=e257] [cursor=pointer]:
+                - /url: /customer/addresses
+            - listitem [ref=e258]:
+              - link "Shopping cart" [ref=e259] [cursor=pointer]:
+                - /url: /cart
+            - listitem [ref=e260]:
+              - link "Wishlist" [ref=e261] [cursor=pointer]:
+                - /url: /wishlist
+            - listitem [ref=e262]:
+              - link "Apply for vendor account" [ref=e263] [cursor=pointer]:
+                - /url: /vendor/apply
+        - generic [ref=e264]:
+          - generic [ref=e265]:
+            - strong [ref=e267]: Follow us
+            - list [ref=e268]:
+              - listitem [ref=e269]:
+                - link "Facebook" [ref=e270] [cursor=pointer]:
+                  - /url: https://www.facebook.com/nopCommerce
+              - listitem [ref=e271]:
+                - link "Twitter" [ref=e272] [cursor=pointer]:
+                  - /url: https://twitter.com/nopCommerce
+              - listitem [ref=e273]:
+                - link "RSS" [ref=e274] [cursor=pointer]:
+                  - /url: /news/rss/1
+              - listitem [ref=e275]:
+                - link "YouTube" [ref=e276] [cursor=pointer]:
+                  - /url: https://www.youtube.com/user/nopCommerce
+              - listitem [ref=e277]:
+                - link "Instagram" [ref=e278] [cursor=pointer]:
+                  - /url: https://www.instagram.com/nopcommerce_official
+          - generic [ref=e279]:
+            - strong [ref=e281]: Newsletter
+            - generic [ref=e283]:
+              - textbox "Sign up for our newsletter" [ref=e284]
+              - button "Subscribe" [ref=e285] [cursor=pointer]
+      - generic [ref=e286]:
+        - generic [ref=e288]: Copyright © 2025 nopCommerce demo store. All rights reserved.
+        - generic [ref=e289]:
+          - text: Powered by
+          - link "nopCommerce" [ref=e290] [cursor=pointer]:
+            - /url: https://www.nopcommerce.com/
+```
